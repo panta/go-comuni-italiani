@@ -1,0 +1,22 @@
+# system files
+._*
+.DS_Store
+
+# IDE files
+*.sublime‐project
+*.sublime‐workspace
+/.idea/
+.vscode/
+*.xcodeproj/
+
+# backup files
+*.bak
+*~
+
+# executables
+/bin
+
+/comuni.csv
+/comuni.json
+
+/vendor
