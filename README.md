@@ -5,9 +5,12 @@
 This is a simple Go library and command-line utility to help working with Italian
 administrative territorial entities (towns, cities, regions, ...).
 
-It provides a struct to represent the most relevant properties and an utility to
-download [the official CSV](https://www.istat.it/it/archivio/6789) with ISTAT codes
-and convert to an easily (de-)serializable JSON format.
+It provides:
+
+* a struct `Comune` to represent the most relevant properties
+* a pre-generated array `Comuni` (it's a slice of `Comune` structs) containing up-to-date records already converted to Go
+* and an utility to download [the official CSV](https://www.istat.it/it/archivio/6789) with ISTAT codes
+and convert to an easily (de-)serializable JSON format (or to Go source directly)
 
 
 ## Building
