@@ -192,6 +192,7 @@ package comuni
 		"{{ .TipologiaUnitaTerritoriale }}", {{ .ComuneCapoluogo }},
 		"{{ .SiglaAutomobilistica }}", {{ .CodiceComuneNumerico }},
 		{{ .CodiceComuneNumerico110 }}, {{ .CodiceComuneNumerico107 }}, {{ .CodiceComuneNumerico103 }},
+		"{{ .CodiceCatastale }}",
 		"{{ .Codice_NUTS1_2010 }}", "{{ .Codice_NUTS2_2010 }}",
 		"{{ .Codice_NUTS3_2010 }}", "{{ .Codice_NUTS1_2021 }}",
 		"{{ .Codice_NUTS2_2021 }}", "{{ .Codice_NUTS3_2021 }}",

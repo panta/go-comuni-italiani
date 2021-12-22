@@ -20,6 +20,7 @@ type Comune struct {
 	CodiceComuneNumerico110        int32  `json:"codice_comune_numerico_110" csv:"Codice Comune numerico con 110 province..."`
 	CodiceComuneNumerico107        int32  `json:"codice_comune_numerico_107" csv:"Codice Comune numerico con 107 province..."`
 	CodiceComuneNumerico103        int32  `json:"codice_comune_numerico_103" csv:"Codice Comune numerico con 103 province..."`
+	CodiceCatastale                string `json:"codice_catastale" csv:"Codice Catastale..."`
 	Codice_NUTS1_2010              string `json:"codice_nuts1_2010" csv:"Codice NUTS1 2010"`
 	Codice_NUTS2_2010              string `json:"codice_nuts2_2010" csv:"Codice NUTS2 2010..."`
 	Codice_NUTS3_2010              string `json:"codice_nuts3_2010" csv:"Codice NUTS3 2010"`
